@@ -1,0 +1,19 @@
+{
+  "name": "Scope Guard",
+  "description": "AI-powered contract scope enforcement for freelancers and agencies. Detects scope creep in client messages, generates professional pushback responses, and creates formal change orders automatically.",
+  "version": "1.0.0",
+  "author": "Ebenova Solutions",
+  "homepage": "https://ebenova.dev/scope-guard",
+  "license": "MIT",
+  "tools": [
+    { "name": "analyze_scope_creep", "description": "Analyze a client message for scope violations against original contract terms" },
+    { "name": "generate_change_order", "description": "Generate a formal change order document for out-of-scope work" },
+    { "name": "extract_from_conversation", "description": "Extract project requirements and scope from a conversation thread" },
+    { "name": "generate_legal_document", "description": "Generate a professional legal document (NDA, contract, agreement)" },
+    { "name": "generate_invoice", "description": "Generate a professional invoice" },
+    { "name": "check_usage", "description": "Check your API key usage and remaining quota" }
+  ],
+  "config": {
+    "EBENOVA_API_KEY": { "type": "string", "required": true, "description": "Get your API key at https://ebenova.dev/pricing" }
+  }
+}
