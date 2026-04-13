@@ -7,7 +7,7 @@ description: AI-powered scope creep detection and change order generator. Paste 
 
 author: Ebenova Solutions <api@ebenova.dev>
 license: MIT
-homepage: https://ebenova.dev
+homepage: https://api.ebenova.dev/scope-guard
 repository: https://github.com/ebenova/scope-guard-mcp
 
 keywords:
